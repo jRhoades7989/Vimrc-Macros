@@ -7,8 +7,8 @@ set tabstop=4
 set expandtab
 ```
 and no softtab setting.
-I use the "z buffer to hold things, so that could overwrite something if you store
-things in there normally.
+I use the `"z` buffer to hold things, so that could overwrite something if you 
+store things in there normally.
 I haven't tried it with different settings. Let me know if you run into issues.
 
 ## HTML Tag Maker:
@@ -26,24 +26,26 @@ function my_heart_will_go_on() {
 }
 ```
 ## PHP Tag Maker
-This will open and close a php tag after your cursor
+This will open and close a php tag after your cursor.
 It doesn't go ahead and open up the tags as I find 
 myself using inline php as much as block:
 ```php
 <?php //I leaves your cursor here ?>
 ```
 ## Universal Opener
-This opens whatever. Just a general purpose. Not sure
-if it's worth it yet. We'll see if it stays. Anyway,it
+This opens whatever. Just a general purpose opener. Not sure
+if it's worth it yet. We'll see if it stays. Anyway, it
 takes this `<?php ?>` or this `{}`and makes this:
 ```php
 <?php 
-    //It leaves the cursor here
+    //It leaves the cursor indented by 4 spaces
 ?>
 ```
 or this:
 ```php
 {
-    //It leaves the cursor here
+    //It leaves the cursor indented by 4 spaces
 }
+
+Enjoy playing around with the macros.
 
