@@ -3,3 +3,9 @@
 
 " A macro for any language that uses curly braces to define code blocks
     let @j='a {I  0vwh"zy0xxA}k"zgpa	'
+
+" A macro for openning and closing a php tag
+    let @p='a<?php ?>hhi '
+
+" A macro for opening anything (tags, braces, etc.)
+    let @o='aka    '

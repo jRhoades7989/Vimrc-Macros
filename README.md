@@ -25,3 +25,25 @@ function my_heart_will_go_on() {
     //It leaves the cursor indented by 4 spaces
 }
 ```
+## PHP Tag Maker
+This will open and close a php tag after your cursor
+It doesn't go ahead and open up the tags as I find 
+myself using inline php as much as block:
+```php
+<?php //I leaves your cursor here ?>
+```
+## Universal Opener
+This opens whatever. Just a general purpose. Not sure
+if it's worth it yet. We'll see if it stays. Anyway,it
+takes this `<?php ?>` or this `{}`and makes this:
+```php
+<?php 
+    //It leaves the cursor here
+?>
+```
+or this:
+```php
+{
+    //It leaves the cursor here
+}
+
